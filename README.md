@@ -6,13 +6,13 @@ This repository is designed to make a web page available that is uses source cod
 
 I copied all the files from the frontend directory from the (above mentioned repository)[https://github.com/tataDan/wails-to-wasm/]. Note: I copied the files contained in that directory not the directory itself.
 
-I changed this line 
+I changed this line in the index.html file
 
 ```<img id="logo" class="logo" src="../assets/images/logo-universal.png">```
 
  to ```<img id="logo" class="logo" src="assets/images/logo-universal.png">```.
 
-This was necessary because in the original source code the html.index file is in the frontend directory, but that is not the case here. (Note: I could have chosen to have all the files in the project level directory of the original source code instead of in the frontend directory).
+This was necessary because in the original source code the index.html file is in the frontend directory, but that is not the case here. (Note: I could have chosen to have all the files in the project level directory of the original source code instead of in the frontend directory).
 
 I then went to Settings/Pages and chose ```main``` for the branch.  After a short period of time, (this site)[https://tatadan.github.io/wails-to-wasm-app/] was created.
 
